@@ -80,6 +80,18 @@ channel = stable
 repo = fluidd-core/fluidd
 path = ~/fluidd
 
+[timelapse]
+enabled = True
+mode = layermacro
+snapshoturl = http://localhost:8080/?action=snapshot
+gcode_verbose = True
+parkhead = False
+parkpos = back_left
+park_retract_distance = 1.0
+park_extrude_distance = 1.0
+output_framerate = 30
+duplicatelastframe = 0
+
 [spoolman]
 server = http://192.168.0.227:7912
 
